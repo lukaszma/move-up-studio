@@ -1,0 +1,24 @@
+.main {
+  background: linear-gradient(0deg, rgb(238, 191, 226), rgb(255, 251, 255));
+  min-height: 100lvh;
+  position: fixed;
+  inset: 0px;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.logo {
+  border-radius: 50%;
+  object-fit: contain;
+  object-position: initial;
+  filter: none;
+}
+
+
+.socials a {
+    margin: 10px;
+}

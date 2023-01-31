@@ -1,7 +1,7 @@
 export const LocalBusiness = () => ({
   __html: `{
     "@context": "https://schema.org",
-    "@type": "Aerial sports center",
+    "@type": "ExerciseGym",
     image: [
       "/android-chrome-192x192.png",
       "/android-chrome-512x512.png",
@@ -29,7 +29,7 @@ export const LocalBusiness = () => ({
       latitude: 50.79863113105372,
       longitude: 19.116222930685222,
     },
-    url: "https://moveupstudio.netlify.app",
+    url: "https://moveupstudio.pl",
     telephone: "721 829 352",
     openingHoursSpecification: [
       {
