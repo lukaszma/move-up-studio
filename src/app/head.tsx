@@ -16,7 +16,10 @@ export default function Head() {
         name="robots"
         content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
       ></meta>
-       <meta name="keywords" content="pole, dance, poledance, aerial, hoop, sport, częstochowa, aktywność, zajęcia, ruch, taniec"></meta>
+      <meta
+        name="keywords"
+        content="pole, dance, poledance, aerial, hoop, sport, częstochowa, aktywność, zajęcia, ruch, taniec"
+      ></meta>
 
       <meta
         property="og:title"
@@ -37,6 +40,7 @@ export default function Head() {
       <link rel="canonical" href="https://moveupstudio.pl/"></link>
 
       <Script
+        id="organization-structured-data"
         type="application/ld+json"
         dangerouslySetInnerHTML={LocalBusiness()}
       />
