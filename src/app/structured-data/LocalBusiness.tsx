@@ -1,14 +1,9 @@
 export const LocalBusiness = () => ({
   __html: `{
     "@context": "https://schema.org",
-    "@type": "ExerciseGym",
-    "image": [
-      "/android-chrome-192x192.png",
-      "/android-chrome-512x512.png",
-      "/favicon-16x16.png",
-      "/favicon-32x32.png"
-    ],
+    "@type": "LocalBusiness",
     "name": "Move Up Studio",
+    "image": "https://moveupstudio.pl/_next/image?url=%2Fandroid-chrome-192x192.png&w=256&q=75",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "1 Maja 21",
@@ -19,10 +14,10 @@ export const LocalBusiness = () => ({
     "priceRange": "$$",
     "review": {
       "@type": "Review",
-    "author": {
-      "@type": "Person",
-      "name": "Łukasz"
-    },
+      "author": {
+        "@type": "Person",
+        "name": "Łukasz"
+      },
       "reviewRating": {
         "@type": "Rating",
         "ratingValue": "5",
