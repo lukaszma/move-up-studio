@@ -4,9 +4,7 @@ import Script from "next/script";
 export default function Head() {
   return (
     <>
-      <title>
-        Zajęcia Pole Dance & Aerial Hoop | Move Up Studio Częstochowa
-      </title>
+      <title>Move Up Studio Częstochowa - Pole Dance, Aerial Hoop, Fitness</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta
         name="description"
@@ -18,7 +16,7 @@ export default function Head() {
       ></meta>
       <meta
         name="keywords"
-        content="pole, dance, poledance, aerial, hoop, sport, częstochowa, aktywność, zajęcia, ruch, taniec"
+        content="pole, dance, poledance, pole dance, aerial, hoop, aerial hoop, sport, częstochowa, aktywność, zajęcia, ruch, taniec, fitness, stretching"
       ></meta>
 
       <meta
